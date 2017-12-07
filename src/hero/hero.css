@@ -19,3 +19,13 @@
   padding: 30px;
   opacity: 0.7;
 }
+
+.hero-container h1 {
+  font-size: 3em;
+}
+
+.hero-container h1,
+.hero-container span {
+  z-index: 6;
+  color: #000;
+}
