@@ -13,3 +13,15 @@
 .header-container ul li {
   margin: 20px;
 }
+
+.header-container ul li a {
+  text-decoration: none;
+  color: #0284A8;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header-container ul li a:hover {
+  color: #02BEC4;
+  border-bottom: 2px solid #02BEC4;
+}
