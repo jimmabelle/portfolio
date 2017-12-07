@@ -1,4 +1,7 @@
 .header-container {
   background: pink;
+}
 
+.header-container ul {
+  list-style: none;
 }

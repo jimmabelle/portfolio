@@ -7,7 +7,6 @@ class Header extends React.Component {
     return (
       <div className="header-container">
         <ul>
-          <h1>CV</h1>
           <li>Home</li>
           <li>About me</li>
           <li>Project</li>
