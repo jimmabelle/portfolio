@@ -6,7 +6,7 @@ class Hero extends React.Component {
   render() {
     return (
       <div className="hero-container">
-        hej
+        <h1>Jimma Belle Blikstad</h1>
       </div>
     )
   }
