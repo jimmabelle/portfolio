@@ -1,22 +1,10 @@
 .grid-container {
-  background-color: pink;
+  background: pink;
+  margin: 30px;
 }
 
-/* Create two equal columns that floats next to each other */
-.grid-container figure {
-    float: left;
-    width: 50%;
-    padding: 10px;
-}
-
-.grid-container figure img {
-    margin-top: 12px;
-    width: 100%;
-}
-
-/* Clear floats after the columns */
-.images-container:after {
-    content: "";
-    display: table;
-    clear: both;
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
