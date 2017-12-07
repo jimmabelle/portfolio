@@ -7,10 +7,11 @@ class Header extends React.Component {
     return (
       <div className="header-container">
         <ul>
-          <li>Home</li>
-          <li>About me</li>
-          <li>Project</li>
-          <li>Contact</li>
+          <li><a href="">Curriculom Vitae</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">About me</a></li>
+          <li><a href="">Project</a></li>
+          <li><a href="">Contact</a></li>
         </ul>
       </div>
     )

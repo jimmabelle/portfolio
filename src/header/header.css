@@ -1,7 +1,15 @@
 .header-container {
   background: pink;
+  font-size: 16px;
 }
 
 .header-container ul {
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.header-container ul li {
+  margin: 20px;
 }
