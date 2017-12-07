@@ -1,3 +1,21 @@
 .hero-container {
-  background-image: url(https://careerfoundry.com/en/blog/learningtoprogram-min-9125c4feda18e437f6e03ce6c17aa558bc89c47b897cdc3707efdc0157923d4f.jpg)
+  background-image: url(https://careerfoundry.com/en/blog/learningtoprogram-min-9125c4feda18e437f6e03ce6c17aa558bc89c47b897cdc3707efdc0157923d4f.jpg);
+
+  /* Set a specific height */
+  height: 600px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-container .text-container {
+  background: pink;
+  position: absolute;
+  top: 350px;
+  left: 250px;
+  padding: 30px;
+  opacity: 0.7;
 }
