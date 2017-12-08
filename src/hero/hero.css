@@ -26,6 +26,43 @@
   text-transform: uppercase;
 }
 
+
+.hero-container .first-container {
+  margin-bottom: 15px;
+}
+
+.hero-container span {
+  display: inline-block;
+  position: relative;
+  margin-right: 5px;
+}
+
+
+.hero-container span:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+  transition: 0.6s;
+  z-index: -5;
+}
+
+.hero-container .share:hover > h1 > span:nth-child(1):after {
+  background: white;
+  width: 100%;
+  transition: 0.6s;
+  transition-delay: 100ms;
+  transform: rotate(-25deg);
+}
+
+.hero-container .share:hover > h1 > span:nth-child(1) {
+  color: #39393B;
+  transition-delay: 110ms;
+}
+
+
 /*.hero-container .text-container {*/
   /* Setting opacity 0.1 in rgba */
 /*  background: rgba(255, 192, 203, 0.3);
