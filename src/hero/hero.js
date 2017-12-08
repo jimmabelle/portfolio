@@ -6,9 +6,20 @@ class Hero extends React.Component {
   render() {
     return (
       <div className="hero-container">
-        <div className="text-container">
-          <h1>Jimma Belle Blikstad</h1>
-          <span>Web Developer</span>
+        <div className="first-container">
+          <h1>
+            <span>J</span><span>i</span><span>m</span><span>m</span><span>a </span>
+            <span>B</span><span>e</span><span>l</span><span>l</span><span>e </span>
+            <span>B</span><span>l</span><span>i</span><span>k</span><span>s</span>
+            <span>t</span><span>a</span><span>d</span>
+          </h1>
+        </div>
+        <div className="second-container">
+          <h1>
+            <span>W</span><span>e</span><span>b</span> <span>D</span><span>e</span>
+            <span>v</span><span>e</span><span>l</span><span>o</span><span>p</span>
+            <span>e</span><span>r</span>
+          </h1>
         </div>
       </div>
     )
