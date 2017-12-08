@@ -1,16 +1,16 @@
 .header-container {
   background: pink;
   font-size: 16px;
+  text-align: center;
+  padding: 20px;
 }
 
-.header-container ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.header-container ul{
+  display: inline;
 }
 
 .header-container ul li {
+  display: inline;
   margin: 20px;
 }
 
@@ -25,3 +25,28 @@
   color: #02BEC4;
   border-bottom: 2px solid #02BEC4;
 }
+
+/*
+.home-container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.home-container ul li {
+  margin: 20px;
+}
+
+.home-container ul li a {
+  text-decoration: none;
+  color: #0284A8;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.home-container ul li a:hover {
+  color: #02BEC4;
+  border-bottom: 2px solid #02BEC4;
+}
+*/
