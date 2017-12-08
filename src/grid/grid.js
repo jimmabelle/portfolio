@@ -56,7 +56,7 @@ class Grid extends React.Component {
             </figcaption>
           </figure>
           <figure>
-            <img src="/images/thumbsUp.jpeg" alt="" />
+            <img src="/images/thumbsUp.jpg" alt="" />
             <figcaption>
               <h1>Lorem Ipsum</h1>
               <p>Vad är Lorem Ipsum?</p>
