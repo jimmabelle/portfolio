@@ -9,16 +9,17 @@ class About extends React.Component {
           <figure>
             <img src="/images/cv.jpg" alt="Jimma" />
             <figcaption>
-              <h2>Jimma Belle Blikstad</h2>
               <p>Web Developer</p>
-              <p>Ursviksvägen 16,<br /> 172 36 Sundbyberg</p>
             </figcaption>
           </figure>
         </div>
         <div className="right">
-          <p>Background</p>
-          <p>Educational Attended</p>
-          <p>Hobbies</p>
+          <ul>
+            <h3>Jimma Belle Blikstad</h3>
+            <li>Adress:</li>
+            <li>Working Experiences:</li>
+            <li>Educational Attended:</li>
+          </ul>
         </div>
       </div>
     )
