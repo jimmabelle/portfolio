@@ -1,3 +1,20 @@
 .projects-container {
-  background: yellow;
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png);
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.projects-container .grid {
+  max-width: 1000px;
+  margin: 0 auto 0 auto;
+  display: inline;
+}
+
+.projects-container .grid > div {
+  width: 25%;
+  height: 300px;
+  margin: 5px;
+  border: 2px solid #000;
+  display: inline;
 }
