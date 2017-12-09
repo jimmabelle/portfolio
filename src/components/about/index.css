@@ -1,3 +1,20 @@
+.about-container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.about-container .left {
+  width: 30%;
+  float: left;
+}
+
+.about-container .right {
+  width: 70%;
+  float: right;
+  text-align: left;
+  background: #fff;
+}
+
 img {
-  height: 300px;
+  height: 350px;
 }
