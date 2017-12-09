@@ -11,7 +11,7 @@ class App extends React.Component {
       <BrowserRouter>
         <div className="homePage-container">
           <h1>Portfolio</h1>
-          <ul>
+          <ul className="homePage-list">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About me</Link></li>
             <li><Link to="/project">Projects</Link></li>

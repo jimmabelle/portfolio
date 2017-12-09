@@ -22,23 +22,23 @@ body {
   text-transform: uppercase;
 }
 
-.homePage-container ul {
+.homePage-container .homePage-list {
   display: inline;
 }
 
-.homePage-container ul li {
+.homePage-container .homePage-list li {
   display: inline;
   margin: 20px;
 }
 
-.homePage-container ul li a {
+.homePage-container .homePage-list li a {
   text-decoration: none;
   color: #0284A8;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.homePage-container ul li a:hover {
+.homePage-container .homePage-list li a:hover {
   color: #02BEC4;
   border-bottom: 2px solid #02BEC4;
 }

@@ -16,6 +16,10 @@
   padding: 20px 30px;
 }
 
+.about-container .aboutme-list {
+  display: block;
+}
+
 img {
   height: 350px;
 }

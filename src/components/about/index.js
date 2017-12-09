@@ -14,7 +14,7 @@ class About extends React.Component {
           </figure>
         </div>
         <div className="right">
-          <ul>
+          <ul className="aboutme-list">
             <h3>Jimma Belle Blikstad</h3>
             <li>Adress:</li>
             <li>Working Experiences:</li>
