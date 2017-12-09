@@ -1,23 +1,38 @@
-.about-container {
+.aboutme-container {
   margin-top: 20px;
   overflow: hidden;
+
 }
 
-.about-container .left {
+.aboutme-container .left {
   width: 30%;
   float: left;
 }
 
-.about-container .right {
+.aboutme-container .right {
   width: 70%;
   float: right;
   text-align: left;
   background: #fff;
   padding: 20px 30px;
+  background:url(https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png);
 }
 
-.about-container .aboutme-list {
+.aboutme-container .aboutme-list {
   display: block;
+  list-style-type: none;
+}
+
+.aboutme-container .aboutme-list > li {
+  padding-top: 20px;
+}
+
+.aboutme-container .aboutme-list li > ul{
+  padding-left: 40px;
+}
+
+figcaption {
+  font-family: 'Margarine', cursive;
 }
 
 img {
