@@ -1,0 +1,59 @@
+.form-container {
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/bright_squares.png);
+  margin-top: 40px;
+  padding: 40px;
+}
+
+.form-container .form {
+  border: 1px solid #02BEC4;
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 16px;
+  background: #F7F7F7;
+}
+
+.form-container .form h2 {
+  color: #0284A8;
+  padding: 20px 0;
+  font-size: 140%;
+  font-weight: 400;
+  text-align: center;
+  margin: -16px -16px 16px -16px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+  transition: all 0.30s ease-in-out;
+  outline: none;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  font: 95% Arial, Helvetica, sans-serif;
+}
+
+.form-container input[type="text"]:focus,
+.form-container input[type="email"]:focus,
+.form-container textarea:focus {
+  box-shadow: 0 0 5px #43D1AF;
+  padding: 3%;
+  border: 1px solid #43D1AF;
+}
+
+
+.form-container input[type="submit"] {
+    width: 100%;
+    padding: 3%;
+    background: #43D1AF;
+    border-bottom: 2px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+}
+.form-container input[type="submit"]:hover {
+    background: #2EBC99;
+}
