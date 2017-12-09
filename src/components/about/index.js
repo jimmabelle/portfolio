@@ -17,22 +17,24 @@ class About extends React.Component {
           <ul className="aboutme-list">
             <h3>Jimma Belle Blikstad</h3>
             <li>
-              Adress:<br />
-              <span>Ursviksvägen 16, 172 36 Sundbyberg</span>
+              Address:<br />
+              <ul>
+                <li>Ursviksvägen 16, 172 36 Sundbyberg</li>
+              </ul>
             </li>
             <li>Working Experiences:<br />
-              <span>
-                <p>Sales Associates</p>
-                <p>Secretary</p>
-              </span>
+              <ul>
+                <li>Sales Associates</li>
+                <li>Secretary</li>
+              </ul>
             </li>
             <li>Educational Attended:<br />
-              <span>
-                <p>Technigo</p>
-                <p>Changemaker Education</p>
-                <p>Komxux</p>
-                <p>University of Mindanao</p>
-              </span>
+              <ul>
+                <li>Technigo</li>
+                <li>Changemaker Education</li>
+                <li>Komxux</li>
+                <li>University of Mindanao</li>
+              </ul>
             </li>
           </ul>
         </div>
