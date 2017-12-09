@@ -8,3 +8,37 @@ body {
   font-family: sans-serif;
   background: #f2f2f2;
 }
+
+.homePage-container {
+  background: pink;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.homePage-container h1 {
+  margin-bottom: 20px;
+  color: #0284A8;
+  text-transform: uppercase;
+}
+
+.homePage-container ul {
+  display: inline;
+}
+
+.homePage-container ul li {
+  display: inline;
+  margin: 20px;
+}
+
+.homePage-container ul li a {
+  text-decoration: none;
+  color: #0284A8;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.homePage-container ul li a:hover {
+  color: #02BEC4;
+  border-bottom: 2px solid #02BEC4;
+}

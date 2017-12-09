@@ -1,17 +1,26 @@
 import React from "react"
-import Header from "../header/header"
-import Hero from "../hero/hero"
-import Grid from "../grid/grid"
+import { BrowserRouter, Route, Link } from "react-router-dom"
+
+import Home from "./home/index"
+import About from "./about/index"
 
 class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <Header />
-        <Hero />
-        <Grid />
-      </div>
+      <BrowserRouter>
+        <div className="homePage-container">
+          <h1>Portfolio</h1>
+          <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About me</Link></li>
+            <li><Link to="/project">Projects</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+          </ul>
+          <Route path="/" exact component={Home} />
+          <Route path="/About" component={About} />
+        </div>
+      </BrowserRouter>
     )
   }
 
