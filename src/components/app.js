@@ -13,6 +13,12 @@ class App extends React.Component {
       <BrowserRouter>
         <div className="homePage-container">
           <h1>Portfolio</h1>
+          <input type="checkbox" id="input" />
+          <label className="menuBar" htmlFor="input">
+            <span className="bar" />
+            <span className="bar" />
+            <span className="bar" />
+          </label>
           <ul className="homePage-list">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About me</Link></li>
