@@ -21,6 +21,7 @@
   position: relative;
   opacity: 0.8;
   z-index: 1;
+  background: #060F4F;
 }
 
 .projects-container .grid img {
