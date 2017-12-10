@@ -9,8 +9,6 @@
   margin-top: 40px;
 }
 
-
-/*
 .hero-container .inner-container {
   position: absolute;
   top: 25%;
@@ -291,4 +289,4 @@
 .hero-container .share:hover > h1 > span:nth-child(18) {
   color: #39393B;
   transition-delay: 1990ms;
-}*/
+}
