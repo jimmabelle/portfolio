@@ -8,7 +8,7 @@ class About extends React.Component {
         <div className="left">
           <figure>
             <img src="/images/cv.jpg" alt="Jimma" />
-            <figcaption>
+            <figcaption className="profs">
               Web Developer
             </figcaption>
           </figure>
