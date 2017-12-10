@@ -105,7 +105,7 @@ body {
   color: #02BEC4;
   border-bottom: 2px solid #02BEC4;
 }
-
+/*
 @media (min-width: 601px) and (max-width: 1200px) {
   .homePage-container {
     padding: 0;
@@ -135,7 +135,7 @@ body {
   #input:checked ~ .homePage-list {
     left: 0;
   }
-}
+}*/
 
 @media (max-width: 600px) {
   .homePage-container {
