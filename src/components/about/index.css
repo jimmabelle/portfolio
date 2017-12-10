@@ -6,16 +6,19 @@
 }
 
 .aboutme-container .left {
-  width: 30%;
+  width: 25%;
   float: left;
+  margin: 1em;
 }
 
 .aboutme-container .right {
-  width: 70%;
+  width: 65%;
   float: right;
   text-align: left;
   background: #fff;
   padding: 30px 40px;
+  border: 1px solid pink;
+  margin: 1em;
 }
 
 .aboutme-container .aboutme-list {
@@ -48,4 +51,39 @@
 
 .aboutme-container .left img {
   height: 350px;
+}
+
+@media (min-width: 601px) and (max-width: 1020px) {
+
+  .aboutme-container .left {
+    width: 100%;
+  }
+
+  .aboutme-container .right {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .aboutme-container .right h3 {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+    .aboutme-container .left {
+      width: 100%;
+
+    }
+
+    .aboutme-container .right {
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    .aboutme-container .right h3 {
+      text-align: center;
+    }
+
 }
