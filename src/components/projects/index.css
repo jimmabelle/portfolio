@@ -3,6 +3,7 @@
   width: 100%;
   margin-top: 40px;
   text-align: center;
+  padding: 50px;
 }
 
 .projects-container .grid {
@@ -11,10 +12,37 @@
   display: inline;
 }
 
-.projects-container .grid > div {
+.projects-container .grid figure {
   width: 25%;
-  height: 300px;
-  margin: 5px;
-  border: 2px solid #000;
-  display: inline;
+  border: thin silver solid;
+  display: inline-block;
+  text-align: center;
+  margin: 0.5em;
 }
+
+.projects-container .grid img {
+  /*width: 250px;*/
+  max-width: 100%;
+  height: auto;
+  margin: 0.5em;
+  padding: 20px;
+}
+
+/*.projects-container .grid::after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
+
+/*.projects-container .grid > div {
+  width: 25%;
+  display: inline;
+  border: thin silver solid;
+}
+
+.projects-container .grid img {
+  max-width: 300px;
+  width: 100%;
+  height: 200px;
+  margin: 10px;
+}*/

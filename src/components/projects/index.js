@@ -7,30 +7,78 @@ class Projects extends React.Component {
     return (
       <div className="projects-container">
         <div className="grid">
-          <div>
+          <figure>
             <img src="/images/board.jpeg" alt="board" />
-          </div>
-          <div>
+            <figcaption>
+              <h4>Yearbook</h4>
+            </figcaption>
+          </figure>
+          <figure>
             <img src="/images/bulb.jpeg" alt="bulb" />
-          </div>
-          <div>
+            <figcaption>
+              <h4>Newspaper Homepage</h4>
+            </figcaption>
+          </figure>
+          <figure>
             <img src="/images/calculation.jpeg" alt="calculator" />
-          </div>
-          <div>
+            <figcaption>
+              <h4>Hero</h4>
+            </figcaption>
+          </figure>
+          <figure>
             <img src="/images/calendar.jpeg" alt="calendar" />
-          </div>
-          <div>
+            <figcaption>
+              <h4>Flexbox</h4>
+            </figcaption>
+          </figure>
+          <figure>
             <img src="/images/code.jpeg" alt="code" />
-          </div>
-          <div>
+            <figcaption>
+              <h4>Hero</h4>
+            </figcaption>
+          </figure>
+          <figure>
             <img src="/images/office.jpeg" alt="office" />
-          </div>
-          <div>
+            <figcaption>
+              <h4>SignUp Form</h4>
+            </figcaption>
+          </figure>
+          <figure>
             <img src="/images/time.jpeg" alt="time" />
-          </div>
-          <div>
+            <figcaption>
+              <h4>FAQ</h4>
+            </figcaption>
+          </figure>
+          <figure>
             <img src="/images/tree.jpeg" alt="tree" />
-          </div>
+            <figcaption>
+              <h4>Pizzabot 1</h4>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="/images/building.jpeg" alt="tree" />
+            <figcaption>
+              <h4>Pizzabot 2</h4>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="/images/newyork.jpeg" alt="tree" />
+            <figcaption>
+              <h4>Weather Dashboard</h4>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="/images/metal.jpeg" alt="tree" />
+            <figcaption>
+              <h4>Design Brief</h4>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="/images/keyboard.jpeg" alt="tree" />
+            <figcaption>
+              <h4>Product List</h4>
+            </figcaption>
+          </figure>
         </div>
       </div>
     )
