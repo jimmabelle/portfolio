@@ -23,6 +23,10 @@
   list-style-type: none;
 }
 
+.aboutme-container .aboutme-list h3 {
+  font-size: 1.5em; 
+}
+
 .aboutme-container .aboutme-list > li {
   padding-top: 20px;
 }
@@ -34,7 +38,7 @@
 }
 
 
-figcaption {
+.aboutme-container .aboutme-list figcaption {
   margin-top: 20px;
   font-weight: bold;
   color: #0284A8;
@@ -42,6 +46,6 @@ figcaption {
   text-transform: uppercase;
 }
 
-img {
+.aboutme-container .aboutme-list img {
   height: 350px;
 }
