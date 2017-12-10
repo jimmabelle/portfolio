@@ -290,3 +290,21 @@
   color: #39393B;
   transition-delay: 1990ms;
 }
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+  .hero-container .first-container h1,
+  .hero-container .second-container h1 {
+    font-size: 3vw;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .hero-container .first-container h1,
+  .hero-container .second-container h1 {
+    font-size: 3.5vw;
+  }
+
+}
