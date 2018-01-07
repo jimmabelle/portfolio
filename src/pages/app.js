@@ -4,7 +4,7 @@ import Navigation from "assets/navigation"
 
 import Home from "./home"
 import About from "./about"
-import Projects from "./projects"
+import Project from "./project"
 import Contact from "./contact"
 
 class App extends React.Component {
@@ -30,7 +30,7 @@ class App extends React.Component {
           <div className="page">
             <Route path="/" exact component={Home} />
             <Route path="/About" component={About} />
-            <Route path="/Projects" component={Projects} />
+            <Route path="/projects/:id" component={Project} />
             <Route path="/Contact" component={Contact} />
           </div>
         </div>

@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 import "./index.css"
 
-class ProjectPreview extends React.Component {
+export default class ProjectPreview extends React.Component {
 
   render() {
     return (
@@ -20,5 +20,3 @@ class ProjectPreview extends React.Component {
   }
 
 }
-
-export default ProjectPreview
