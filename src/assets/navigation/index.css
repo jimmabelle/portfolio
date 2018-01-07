@@ -1,0 +1,51 @@
+.Navigation {
+  background: #060F4F;
+  padding: 20px;
+}
+
+.Navigation a {
+  margin: 25px 10px;
+  font-weight: bold;
+  color: #E1F7E7;
+  text-decoration: none;
+  position: relative;
+}
+
+.Navigation > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.Navigation a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 2;
+  left: 0;
+  background-color: #E1F7E7;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.Navigation h1 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: #E1F7E7;
+}
+
+.Navigation h1:hover {
+  color: #A9E8DC;
+}
+
+.Navigation #input {
+  display: none;
+}
+
+.Navigation .menuBar {
+  display: none;
+}
