@@ -1,0 +1,7 @@
+.inner {
+  width: 25%;
+  height: 150px;
+  margin: 5px;
+  background: pink;
+  float: left;
+}

@@ -8,7 +8,7 @@ export default class Projects extends React.Component {
 
   render() {
     return (
-      <div className="HomePage">
+      <div className="clearfix ProjectsPage">
         <h1 className="title">Portfolio</h1>
 
         <div className="projects">
@@ -17,7 +17,9 @@ export default class Projects extends React.Component {
               key={projct.id}
               url={projct.id}
               name={projct.name}
-              description={projct.description} />
+              description={projct.description}
+              image={projct.image}
+              link={projct.link} />
           ))}
         </div>
       </div>

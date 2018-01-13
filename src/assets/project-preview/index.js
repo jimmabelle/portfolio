@@ -7,6 +7,7 @@ export default class ProjectPreview extends React.Component {
   render() {
     return (
       // created Link from the projects data
+      // <Link to={`/projects/${this.props.url}`} className="ProjectPreview">
       <Link to={`/projects/${this.props.url}`} className="ProjectPreview">
         <div className="inner">
           <h1>{this.props.name}</h1>
