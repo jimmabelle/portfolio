@@ -1,7 +1,22 @@
-.inner {
-  width: 25%;
-  height: 150px;
-  margin: 5px;
+.grid {
+  width: 29%;
+  height: 200px;
+  margin: 1em;
   background: pink;
-  float: left;
+  display: inline-block;
+  position: relative;
+  /* float: left; */
+}
+
+.grid img {
+  /*width: 250px;*/
+  max-width: 100%;
+  height: auto;
+}
+
+.grid figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
