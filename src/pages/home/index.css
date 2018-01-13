@@ -25,6 +25,11 @@
   margin-bottom: 15px;
 }
 
+.homePage .nowrap {
+white-space: nowrap;
+word-break: keep-all;
+}
+
 .homePage span {
   display: inline-block;
   position: relative;
@@ -292,4 +297,10 @@
 .homePage .share:hover > h1 > span:nth-child(18) {
   color: #39393B;
   transition-delay: 1990ms;
+}
+
+@media (max-width: 600px) {
+  .homePage .remove {
+    display: none;
+  }
 }

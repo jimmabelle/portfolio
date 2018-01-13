@@ -16,7 +16,7 @@ export default class Navigation extends React.Component {
         </label>
         <Link to="/">Home</Link>
         <Link to="/about">About me</Link>
-        <Link to="/project">Projects</Link>
+        <Link to="/project">Project</Link>
         <Link to="/contact">Contact</Link>
       </nav>
     )

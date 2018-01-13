@@ -22,7 +22,7 @@ render() {
     <div className="About">
       <div className="left">
         <figure>
-          <img src="/images/cv.jpg" alt="Jimma" />
+          <img src="images/cv.jpg" alt="Jimma" />
           <figcaption>
             <span>Junior Web Developer</span>
           </figcaption>

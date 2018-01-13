@@ -1,7 +1,9 @@
 import React from "react"
-import ProjectPreview from "assets/project-preview"
+// import ProjectPreview from "assets/project-preview"
 import projects from "data/projects"
 import "./index.css"
+
+// const data = require("./data/projects.js")
 
 class Project extends React.Component {
 
@@ -12,14 +14,17 @@ class Project extends React.Component {
     }
   }
 
-  // creating componentDidMount() to access the data using thier id's if it's match
   componentDidMount() {
     const project = projects.find(p => (p.id === this.props.match.params.id))
+    // const project = projects.find((p) => {
+    //   return p.id === id
+    // })
+
     this.setProject(project)
   }
 
-  // if no project, redirect to a "not found" page
   setProject = (project) => {
+    // if no project, redirect to a "not found" page
     this.setState({
       project
     })
@@ -28,19 +33,9 @@ class Project extends React.Component {
   render() {
     return (
       <div className="ProjectPage">
-        {/* <h1>{this.state.project.name}</h1> */}
-        <h1>Portfolio</h1>
-
+        <h1>{this.state.project.name}</h1>
         <div className="projects">
-          {/* {this.state.project.description} */}
-          {projects.map(project => (
-            <ProjectPreview
-              key={project.id}
-              url={project.id}
-              name={project.name}
-              description={project.description} />
-          ))}
-
+          {this.state.project.description}
         </div>
       </div>
       // <div className="projects-container">
