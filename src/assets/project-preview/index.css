@@ -1,22 +1,17 @@
-.grid {
-  width: 29%;
-  height: 200px;
+.grid figure {
+  width: 30%;
+  background: #060F4F;
   margin: 1em;
-  background: pink;
-  display: inline-block;
-  position: relative;
-  /* float: left; */
+  float: left;
 }
 
 .grid img {
-  /*width: 250px;*/
-  max-width: 100%;
-  max-height: auto;
+  width: 100%;
 }
 
 .grid figcaption {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  font-family: 'Rock Salt', cursive;
+  font-size: 15px;
+  text-align: center;
+  color: #02BEC4;
 }

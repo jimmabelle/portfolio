@@ -1,5 +1,52 @@
+.Projects {
+background: url(https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png);
+max-width: 1400px;
+width: 100%;
+height: auto;
+/* text-align: center; */
+display: inline;
+}
 
-.ProjectsPage {
+.ProjectsPage .title {
+text-align: center;
+letter-spacing: 5px;
+padding: 30px;
+font-size: 2em;
+font-family: 'Rock Salt', cursive;
+}
+
+.projects {
+  /* background: url(https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png); */
+  overflow: auto;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  background: pink;
+}
+
+
+/* .ProjectsPage {
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png);
+  max-width: 1400px;
+  width: 100%;
+  padding: 0;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.projects {
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+  background: pink;
+  margin: auto;
+} */
+
+
+
+/* .ProjectsPage {
   background: url(https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png);
   max-width: 1000px;
   width: 100%;
@@ -20,7 +67,7 @@
     padding: 50px;
 }
 
-
+ */
 
 /* .projectPage{
   background: url(https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png);
