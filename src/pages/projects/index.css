@@ -1,9 +1,31 @@
-.Projects {
+.ProjectsPage {
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png);
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.ProjectsPage .title {
+text-align: center;
+letter-spacing: 5px;
+padding: 30px;
+font-size: 2em;
+font-family: 'Rock Salt', cursive;
+}
+
+.projects {
+  max-width: 1200px;
+  margin: 0 auto 0 auto;
+  display: inline;
+}
+
+/****************************************************************************************************/
+
+/* .Projects {
 background: url(https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png);
 max-width: 1400px;
 width: 100%;
 height: auto;
-/* text-align: center; */
 display: inline;
 }
 
@@ -16,7 +38,7 @@ font-family: 'Rock Salt', cursive;
 }
 
 .projects {
-  /* background: url(https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png); */
+  /* background: url(https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png); *//*
   overflow: auto;
   max-width: 1000px;
   width: 100%;
@@ -24,7 +46,14 @@ font-family: 'Rock Salt', cursive;
   background: pink;
 }
 
+@media (min-width: 600px) and (max-width: 1000px) {
+  .projects {
+    width: 80%;
+    margin: auto;
+  }
+} */
 
+/****************************************************************************************************/
 /* .ProjectsPage {
   background: url(https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png);
   max-width: 1400px;
@@ -45,7 +74,7 @@ font-family: 'Rock Salt', cursive;
 } */
 
 
-
+/****************************************************************************************************/
 /* .ProjectsPage {
   background: url(https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png);
   max-width: 1000px;
@@ -69,6 +98,8 @@ font-family: 'Rock Salt', cursive;
 
  */
 
+
+/********************************************************************************************/
 /* .projectPage{
   background: url(https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png);
   width: 100%;

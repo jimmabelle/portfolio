@@ -1,4 +1,55 @@
-.grid figure {
+.grid {
+  width: 30%;
+  display: inline-block;
+  background-color: #060F4F;
+  margin: 1em;
+}
+
+.grid img {
+  width: 100%;
+  max-width: 430px;
+  height: auto;
+}
+
+.grid figcaption {
+  font-family: 'Rock Salt', cursive;
+  font-size: 15px;
+  text-align: center;
+  color: #02BEC4;
+}
+
+
+/********* tablet / ipod **********/
+@media (min-width: 601px) and (max-width: 900px) {
+  .grid {
+    min-width: 500px;
+  }
+
+  .grid img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .grid img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+  }
+
+}
+/********* mobile units **********/
+
+/****************************************************************************************************/
+/* .grid figure {
   width: 30%;
   background: #060F4F;
   margin: 1em;
@@ -15,3 +66,14 @@
   text-align: center;
   color: #02BEC4;
 }
+
+@media (min-width: 600px) (max-width: 1000px) {
+  .grid{
+    width: 100%;
+    margin: 10px;
+    height: auto;
+    font-size: 15px;
+  }
+
+
+} */
