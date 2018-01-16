@@ -32,7 +32,7 @@ export default [
   }, {
     id: "form",
     name: "Form",
-    description: "Building a form",
+    description: "Build a form",
     link: "https://jimmabelle.github.io/assignment-forms/",
     image: "images/calendar.jpeg"
   }, {
@@ -50,19 +50,19 @@ export default [
   }, {
     id: "todo-app",
     name: "To Do App",
-    description: "Build a dashboard using Api",
+    description: "Build a todo list width local storage",
     link: "https://jimmabelle.github.io/assignment-todo-app-2/",
     image: "images/metal.jpeg"
   }, {
     id: "vat-calculator",
     name: "Vat Calculator",
-    description: "Build a dashboard using Api",
+    description: "Build a Calculator",
     link: " https://jimmabelle.github.io/assignment-vat-calculator/",
     image: "images/newyork.jpeg"
   }, {
     id: "clock",
     name: "Assignment Clock",
-    description: "Build a dashboard using Api",
+    description: "Build a Clock",
     link: " https://jimmabelle.github.io/assignment-vat-calculator/",
     image: "images/office.jpeg"
   }

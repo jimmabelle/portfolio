@@ -13,12 +13,14 @@ export default class Projects extends React.Component {
 
         <div className="projects">
           {projects.map(projct => (
-            <ProjectPreview
-              key={projct.id}
-              url={projct.link}
-              name={projct.name}
-              description={projct.description}
-              image={projct.image} />
+            <a href={projct.link} >
+              <ProjectPreview
+                key={projct.id}
+                url={projct.link}
+                name={projct.name}
+                description={projct.description}
+                image={projct.image} />
+            </a>
           ))}
         </div>
       </div>

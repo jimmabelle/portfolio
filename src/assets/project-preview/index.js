@@ -1,13 +1,13 @@
 import React from "react"
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 import "./index.css"
 
 export default class ProjectPreview extends React.Component {
 
   render() {
     return (
-
-      <Link to={`/projects/${this.props.url}`} className="ProjectPreview">
+      // to={`/projects/${this.props.url}`}
+      // <Link to={this.props.link} action="replace" className="ProjectPreview">
         <div className="grid">
           <figure>
             <img src={this.props.image} alt="grid images" />
@@ -17,7 +17,7 @@ export default class ProjectPreview extends React.Component {
             </figcaption>
           </figure>
         </div>
-      </Link>
+      // </Link>
     )
   }
 
