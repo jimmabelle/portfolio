@@ -8,15 +8,15 @@ export default class ProjectPreview extends React.Component {
     return (
       // to={`/projects/${this.props.url}`}
       // <Link to={this.props.link} action="replace" className="ProjectPreview">
-        <div className="grid">
-          <figure>
-            <img src={this.props.image} alt="grid images" />
-            <figcaption>
-              <h3>{this.props.name}</h3>
-              <p>{this.props.description}</p>
-            </figcaption>
-          </figure>
-        </div>
+      <div className="grid">
+        <figure>
+          <img src={this.props.image} alt="grid images" />
+          <figcaption>
+            <h3>{this.props.name}</h3>
+            <p>{this.props.description}</p>
+          </figcaption>
+        </figure>
+      </div>
       // </Link>
     )
   }
