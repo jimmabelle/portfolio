@@ -15,7 +15,7 @@ export default class Navigation extends React.Component {
           <span className="bar" />
         </label>
         <Link to="/">Home</Link>
-        <Link to="/about">About me</Link>
+        <Link to="/about">About</Link>
         <Link to="/project">Project</Link>
         <Link to="/contact">Contact</Link>
       </nav>

@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter, Route } from "react-router-dom"
+import { HashRouter, Route } from "react-router-dom"
 import Navigation from "assets/navigation"
 
 import Home from "./home"
@@ -11,7 +11,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div>
           <Navigation />
           {/* <h1>Portfolio</h1>
@@ -34,7 +34,7 @@ class App extends React.Component {
             <Route path="/Contact" component={Contact} />
           </div>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 

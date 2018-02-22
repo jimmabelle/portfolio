@@ -1,5 +1,6 @@
 import React from "react"
 import "./index.css"
+import cv from "./cv.jpg"
 
 class About extends React.Component {
 
@@ -22,7 +23,7 @@ render() {
     <div className="About">
       <div className="left">
         <figure>
-          <img src="./cv.jpg" alt="Jimma" />
+          <img src={cv} alt="Jimma" />
           <figcaption>
             <span>Junior Web Developer</span>
           </figcaption>
