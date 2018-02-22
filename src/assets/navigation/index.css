@@ -3,7 +3,7 @@
   padding: 20px;
 }
 
-.Navigation a {
+.Navigation .link a {
   margin: 25px 10px;
   font-weight: bold;
   color: #E1F7E7;
@@ -11,13 +11,13 @@
   position: relative;
 }
 
-.Navigation > a:hover:before {
+.Navigation .link > a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
-.Navigation a:before {
+.Navigation .link a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -43,25 +43,15 @@
 }
 
 /*********** menu bar *********/
-/*
-.Navigation {
-  background: pink;
-  text-align: center;
-  font-size: 16px;
-  padding: 20px 0 0 0;
-  min-height: 100vh;
-  transition: left 0.2s ease-in;
-}
-*/
-
 .Navigation #input {
   display: none;
 }
 
 .Navigation .menuBar {
-  width: 50px;
-  height: 50px;
-  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  padding-bottom: 25px;
+  margin: auto auto auto 0;
   position: relative;
   cursor: pointer;
   display: none;
@@ -111,64 +101,61 @@
   transform: rotate(-135deg) translateY(7px) translateX(7px);
 }
 
-.homePage-container h1 {
-  margin-bottom: 20px;
-  color: #0284A8;
-  text-transform: uppercase;
-  font-size: 2.25em;
-}
-
-.homePage-container .homePage-list {
-  display: inline;
-}
-
-.homePage-container .homePage-list li {
-  display: inline;
-  margin: 20px;
-}
-
-.homePage-container .homePage-list li a {
-  text-decoration: none;
-  color: #0284A8;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.homePage-container .homePage-list li a:hover {
-  color: #02BEC4;
-  border-bottom: 2px solid #02BEC4;
+/*********** mobile version ***********/
+@media (min-width: 601px) and (max-width: 900px) {
+  .Navigation {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .Navigation h1 {
+    margin: 0;
+  }
+  .Navigation .menuBar {
+    display: inline-block;
+  }
+  .Navigation .link {
+    background-color: #0284A8;
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    text-align: center;
+  }
+  #input:checked ~ .link {
+    left: 0;
+  }
+  .list a {
+    width: 100%;
+    display: block;
+    color: #060F4F;
+  }
 }
 
 @media (max-width: 600px) {
-   .homePage-container {
-    padding: 0;
-    height: 20px;
-  }
-
-  .homePage-container h1 {
+  .Navigation {
+    width: 100%;
+    overflow: hidden;
     position: relative;
-    top: 10px;
-    padding: 0;
+  }
+  .Navigation h1 {
     margin: 0;
   }
-
   .Navigation .menuBar {
-    display: block;
+    display: inline-block;
   }
-
-  .homePage-list {
+  .Navigation .link {
+    background-color: #0284A8;
     position: absolute;
-    z-index: 50;
-    flex-wrap: wrap;
-    background: #FFDFE7;
     width: 100%;
-    top: 130px;
-    left: -100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    left: 100%;
+    text-align: center;
   }
-
-  #input:checked ~ .homePage-list {
+  #input:checked ~ .link {
     left: 0;
   }
-} 
+  .list a {
+    width: 100%;
+    display: block;
+    color: #060F4F;
+  }
+}

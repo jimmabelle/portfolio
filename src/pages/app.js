@@ -14,19 +14,6 @@ class App extends React.Component {
       <HashRouter>
         <div>
           <Navigation />
-          {/* <h1>Portfolio</h1>
-          <input type="checkbox" id="input" />
-          <label className="menuBar" htmlFor="input">
-            <span className="bar" />
-            <span className="bar" />
-            <span className="bar" />
-          </label>
-          <ul className="homePage-list">
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About me</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-          </ul> */}
           <div className="page">
             <Route path="/" exact component={Home} />
             <Route path="/About" component={About} />
