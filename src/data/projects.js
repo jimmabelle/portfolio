@@ -14,14 +14,14 @@ export default [
   {
     id: "yearbook",
     name: "Yearbook",
-    description: "Build a yearbook using floats",
-    link: "https://jimmabelle.github.io/assignment-yearbook",
+    description: "Build a yearbook using flexbox",
+    link: "https://jimmabelle.github.io/yearbook/",
     image: yearbook
   }, {
     id: "hero",
     name: "Hero",
     description: "Create a responsive hero banner",
-    link: "https://jimmabelle.github.io/assignment-hero/",
+    link: "https://jimmabelle.github.io/hero/",
     image: book
   }, {
     id: "radio-player",
