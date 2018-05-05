@@ -8,154 +8,16 @@ body {
   font-family: 'Roboto', sans-serif;
   background: lightblue;
   font-size: 100%;
-}
-
-.clearfix:before,
-.clearfix:after {
-  content: "";
-  display: table;
-}
-.clearfix:after{
-  clear: both;
-}
-.clearfix {
-  zoom: 1;
+  background-image: url(https://images.pexels.com/photos/8395/lights-night-unsharp-blured.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
 }
 
 .page {
   max-width: 1400px;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
 }
-
-
-/*
-.homePage-container {
-  background: pink;
-  text-align: center;
-  font-size: 16px;
-  padding: 20px 0 0 0;
-  min-height: 100vh;
-
-  transition: left 0.2s ease-in;
-}
-
-
-.homePage-container #input {
-  display: none;
-}
-
-.homePage-container .menuBar {
-  width: 40px;
-  height: 40px;
-  margin-left: 27px;
-  position: relative;
-  cursor: pointer;
-  display: none;
-}
-
-.homePage-container .menuBar .bar {
-  width: 30px;
-  background: black;
-  height: 3px;
-  display: inline-block;
-  position: absolute;
-  left: 5px;
-  transition: all 0.15s ease-in-out;
-  opacity: 1;
-}
-
-#input:checked ~ .menuBar .bar {
-  width: 25px;
-  background: #02BEC4;
-}
-
-.menuBar .bar:nth-child(1) {
-  top: 12px;
-  background: #0284A8;
-}
-
-.menuBar .bar:nth-child(2) {
-  top: 20px;
-  background: #0284A8;
-}
-
-.menuBar .bar:nth-child(3) {
-  top: 28px;
-  background: #0284A8;
-}
-
-#input:checked ~ .menuBar .bar:nth-child(1) {
-  transform: rotate(135deg) translateY(-4px) translateX(4px);
-}
-
-#input:checked ~ .menuBar .bar:nth-child(2) {
-  left: -5px;
-  opacity: 0;
-}
-
-#input:checked ~ .menuBar .bar:nth-child(3) {
-  transform: rotate(-135deg) translateY(7px) translateX(7px);
-}
-
-.homePage-container h1 {
-  margin-bottom: 20px;
-  color: #0284A8;
-  text-transform: uppercase;
-  font-size: 2.25em;
-}
-
-.homePage-container .homePage-list {
-  display: inline;
-}
-
-.homePage-container .homePage-list li {
-  display: inline;
-  margin: 20px;
-}
-
-.homePage-container .homePage-list li a {
-  text-decoration: none;
-  color: #0284A8;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.homePage-container .homePage-list li a:hover {
-  color: #02BEC4;
-  border-bottom: 2px solid #02BEC4;
-}
-
-@media (max-width: 600px) {
-  .homePage-container {
-    padding: 0;
-    height: 20px;
-  }
-
-  .homePage-container h1 {
-    position: relative;
-    top: 10px;
-    padding: 0;
-    margin: 0;
-  }
-
-  .homePage-container .menuBar {
-    display: block;
-  }
-
-  .homePage-list {
-    position: absolute;
-    z-index: 50;
-    flex-wrap: wrap;
-    background: #FFDFE7;
-    width: 100%;
-    top: 130px;
-    left: -100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  #input:checked ~ .homePage-list {
-    left: 0;
-  }
-} */
