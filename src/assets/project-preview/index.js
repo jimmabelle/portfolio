@@ -16,5 +16,4 @@ export default class ProjectPreview extends React.Component {
       </div>
     )
   }
-
 }

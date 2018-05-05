@@ -55,13 +55,12 @@
   margin-top: 30px;
   padding: 10px;
   position: relative;
+  background: pink;
 }
 
-/* .About .aboutme-list > li span {
-  position: absolute;
-  right: 0;
-  padding-bottom: 50px;
-} */
+.About .aboutme-list > li .first-list {
+  background: green;
+}
 
 .About .aboutme-list > li:not(:first-child) {
   border: 1px solid #02BEC4;

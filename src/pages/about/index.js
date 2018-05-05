@@ -32,7 +32,7 @@ render() {
       <div className="right">
         <ul className="aboutme-list">
           <h3>Jimma Belle Blikstad</h3>
-          <li>Om mig <span onClick={this.handleClick}>&#x2b;</span>
+          <li>Om mig <span className="first-list" onClick={this.handleClick} >&#x2b;</span>
             <ul>
               <li>
                 <p>
@@ -61,7 +61,7 @@ render() {
               </li>
             </ul>
           </li>
-          <li>Address <span>&#x2b;</span>
+          <li>Address <span className="first-list">&#x2b;</span>
             <ul>
               <li>
                 <address>
@@ -70,7 +70,7 @@ render() {
               </li>
             </ul>
           </li>
-          <li>Working Experiences <span>&#x2b;</span>
+          <li>Working Experiences <span className="first-list">&#x2b;</span>
             <ul>
               <li>Sales Associates
                 <span>
@@ -102,7 +102,7 @@ render() {
               </li>
             </ul>
           </li>
-          <li>Skills <span>&#x2b;</span>
+          <li>Skills <span className="first-list">&#x2b;</span>
             <ul>
               <li>Technigo
                 <span><b>TECHNIGO Bootcamp</b></span>
@@ -138,7 +138,7 @@ render() {
               </li>
             </ul>
           </li>
-          <li className="education">Educational Attended <span>&#x2b;</span>
+          <li className="education">Educational Attended <span className="first-list">&#x2b;</span>
             <ul>
               <li>
                 <span>

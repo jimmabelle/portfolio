@@ -4,11 +4,8 @@ import radioPlayer from "./building.jpeg"
 import designBrief from "./bulb.jpeg"
 import flexbox from "./office.jpeg"
 import form from "./calendar.jpeg"
-import faq from "./code.jpeg"
-import weatherDashboard from "./keyboard.jpeg"
-import toDoList from "./metal.jpeg"
-import vatCalculator from "./newyork.jpeg"
-import clock from "./calculation.jpeg"
+import recipes from "./recipes.jpeg"
+import chart from "./chart.jpeg"
 
 export default [
   {
@@ -27,56 +24,37 @@ export default [
     id: "radio-player",
     name: "Radio Player",
     description: "A radio player using the Sveriges Radio API",
-    link: "https://jimmabelle.github.io/assignment-radio-player/",
+    link: "https://jimmabelle.github.io/radio-player/",
     image: radioPlayer
   }, {
     id: "design-brief",
     name: "Design Brief",
     description: "Build a homepage as close as original",
-    link: "https://jimmabelle.github.io/assignment-design-brief//",
+    link: "https://jimmabelle.github.io/design-brief/",
     image: designBrief
   }, {
-    id: "flexbox",
-    name: "Flexbox",
-    description: "Build a yearbook using flexbox",
-    link: "https://jimmabelle.github.io/assignment-flexbox/",
+    id: "newspaper",
+    name: "Newspaper Homepage",
+    description: "Building a newspaper-homepage ",
+    link: "https://jimmabelle.github.io/newspaper-homepage/",
     image: flexbox
   }, {
     id: "form",
     name: "Form",
     description: "Build a form",
-    link: "https://jimmabelle.github.io/assignment-forms/",
+    link: "https://jimmabelle.github.io/signUp-form/",
     image: form
   }, {
-    id: "faq",
-    name: "FAQ",
-    description: "Build a faq and make an accordion",
-    link: "https://jimmabelle.github.io/assignment-accordion/",
-    image: faq
+    id: "recipes",
+    name: "Collection of Recipes",
+    description: "Build your own recipes",
+    link: "https://jimmabelle.github.io/tech-project/#/",
+    image: recipes
   }, {
-    id: "weather-dashborad",
-    name: "Weather Dashboard",
-    description: "Build a dashboard using Api",
-    link: "https://jimmabelle.github.io/assignment-weather/",
-    image: weatherDashboard
-  }, {
-    id: "todo-app",
-    name: "To Do App",
-    description: "Build a todo list width local storage",
-    link: "https://jimmabelle.github.io/assignment-todo-app-2/",
-    image: toDoList
-  }, {
-    id: "vat-calculator",
-    name: "Vat Calculator",
-    description: "Build a Calculator",
-    link: " https://jimmabelle.github.io/assignment-vat-calculator/",
-    image: vatCalculator
-  }, {
-    id: "clock",
-    name: "Assignment Clock",
-    description: "Build a Clock",
-    link: " https://jimmabelle.github.io/assignment-vat-calculator/",
-    image: clock
+    id: "pie-chart",
+    name: "Pie Chart",
+    description: "Pie chart using Api",
+    link: "https://jimmabelle.github.io/pieChart/",
+    image: chart
   }
-
 ]
