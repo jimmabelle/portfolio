@@ -1,0 +1,73 @@
+.Status {
+  width: 100%;
+  display: inline-flex;
+}
+
+.Status .left {
+  width: 25%;
+  margin: 10px;
+}
+
+.Status .right {
+  width: 75%;
+  margin: 10px;
+}
+
+.Status .cv {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  filter:grayscale(100%);
+}
+
+.Status button {
+  background-color: #02BEC4;
+  font-family: 'Rock Salt', cursive;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  height: 70px;
+  text-align: left;
+  padding-left: 20px;
+  outline: none;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.Status button.active,
+.Status .panel.active {
+  display: block;
+  background-color: #017a7e;
+}
+
+.Status button:after {
+  content: '+';
+  color: #000;
+  font-size: 15px;
+  float: right;
+  margin-right: 20px;
+  font-family: 'Rock Salt', cursive;
+}
+
+/* .Status button:before{
+  content: '-';
+  color: #000;
+  font-size: 15px;
+  float: right;
+  margin-right: 20px;
+  font-family: 'Rock Salt', cursive;
+} */
+
+.Status .panel {
+  padding: 20px;
+  /* display: none; */
+}
+
+.Status .panel p {
+  padding-bottom: 20px;
+}
+
+.Status .panel p span {
+  display: block;
+}

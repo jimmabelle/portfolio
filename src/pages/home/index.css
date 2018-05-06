@@ -1,8 +1,13 @@
 .homePage {
+  max-width: 1000px;
   width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #ffffff;
 }
@@ -17,7 +22,7 @@
 .homePage .second-container h1 {
   position: relative;
   letter-spacing: 2px;
-  font-size: 6vw;
+  font-size: 5vw;
   text-align: center;
 }
 

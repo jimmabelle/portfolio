@@ -1,4 +1,11 @@
 .About {
+  background-color: rgba(255, 255, 255, 0.3);
+  max-width: 1000px;
+  width: 100%;
+  margin: 20px auto auto auto;
+}
+
+/* .About {
   padding: 20px;
   overflow: hidden;
   background: url(https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png);
@@ -125,4 +132,4 @@
       text-align: center;
     }
 
-}
+} */
