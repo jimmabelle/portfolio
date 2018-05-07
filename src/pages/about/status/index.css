@@ -23,6 +23,7 @@
 
 .Status button {
   background-color: #02BEC4;
+  color: #fff;
   font-family: 'Rock Salt', cursive;
   font-weight: bold;
   border: none;
@@ -33,22 +34,23 @@
   outline: none;
   letter-spacing: 5px;
   margin-bottom: 10px;
-  -webkit-transition: background-color 1s ease-out;
-  -moz-transition: background-color 1s ease-out;
-  -o-transition: background-color 1s ease-out;
-  -ms-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;
+  cursor: pointer;
+  -webkit-transition: background-color 2s linear;
+  -moz-transition: background-color 2s linear;
+  -o-transition: background-color 2s linear;
+  -ms-transition: background-color 2s linear;
+  transition: background-color 2s linear;
 }
 
 .Status button:hover,
 .Status button.active {
   display: block;
-  background-color: #017a7e;
+  background-color: #060F4F;
 }
 
 .Status button:after {
   content: '+';
-  color: #000;
+  color: #fff;
   font-size: 15px;
   float: right;
   margin-right: 20px;
@@ -65,4 +67,20 @@
 
 .Status .panel p span {
   display: block;
+}
+
+@media (max-width: 600px) {
+  .Status {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Status .left,
+  .Status .right {
+    width: 80%;
+  }
+
 }

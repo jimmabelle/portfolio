@@ -8,6 +8,7 @@ export default [
     email: "jimmabelleblikstad01@gmail.com",
     image: cv,
     adress: "Ursviksvagen 16, 172 36 Sundbyberg",
+    language: "Tagalog och Bisaya, Engelska, Svenska",
     erfarenheter: [{
       ar: "2003-2004, 2006-2008",
       foretag: "NCCC Mall Tagum City ",

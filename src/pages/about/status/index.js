@@ -57,6 +57,7 @@ class Status extends React.Component {
                 <span>{this.props.contact}</span>
                 <span>{this.props.email}</span>
                 <span>{this.props.adress}</span>
+                <span>{this.props.language}</span>
               </p>
             </div>
           }
