@@ -8,14 +8,17 @@ class About extends React.Component {
   render() {
     return (
       <div className="About">
-        {status.map(status => (
+        {status.map(st => (
           <Status
-            key={status.id}
-            image={status.image}
-            adress={status.adress}
-            erfarenheter={status.erfarenheter}
-            skills={status.skills}
-            utbildning={status.utbildning} />
+            key={st.id}
+            name={st.name}
+            contact={st.contact}
+            email={st.email}
+            image={st.image}
+            adress={st.adress}
+            erfarenheter={st.erfarenheter}
+            skills={st.skills}
+            utbildning={st.utbildning} />
         ))}
       </div>
     )

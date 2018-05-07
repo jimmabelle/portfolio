@@ -5,16 +5,16 @@ class Status extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      address: false,
+      contact: false,
       experience: false,
       skills: false,
       education: false
     }
   }
 
-  handleClickAddress = () => {
+  handleClickContact = () => {
     this.setState({
-      address: !this.state.address
+      contact: !this.state.contact
     })
   }
 
@@ -46,13 +46,16 @@ class Status extends React.Component {
         </div>
         <div className="right">
           <button
-            className={this.state.address ? "active" : "inactive"}
-            onClick={this.handleClickAddress}>
-            Adress
+            className={this.state.contact ? "active" : "inactive"}
+            onClick={this.handleClickContact}>
+            Contact
           </button>
-          {this.state.address &&
+          {this.state.contact &&
             <div className="panel">
               <p>
+                <span>{this.props.name}</span>
+                <span>{this.props.contact}</span>
+                <span>{this.props.email}</span>
                 <span>{this.props.adress}</span>
               </p>
             </div>

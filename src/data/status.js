@@ -3,6 +3,9 @@ import cv from "./cv.jpg"
 export default [
   {
     id: "om",
+    name: "Jimma Belle Blikstad",
+    contact: "073-642-5654",
+    email: "jimmabelleblikstad01@gmail.com",
     image: cv,
     adress: "Ursviksvagen 16, 172 36 Sundbyberg",
     erfarenheter: [{

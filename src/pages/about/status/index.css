@@ -33,10 +33,15 @@
   outline: none;
   letter-spacing: 5px;
   margin-bottom: 10px;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  -ms-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
 }
 
-.Status button.active,
-.Status .panel.active {
+.Status button:hover,
+.Status button.active {
   display: block;
   background-color: #017a7e;
 }
@@ -50,18 +55,8 @@
   font-family: 'Rock Salt', cursive;
 }
 
-/* .Status button:before{
-  content: '-';
-  color: #000;
-  font-size: 15px;
-  float: right;
-  margin-right: 20px;
-  font-family: 'Rock Salt', cursive;
-} */
-
 .Status .panel {
   padding: 20px;
-  /* display: none; */
 }
 
 .Status .panel p {
