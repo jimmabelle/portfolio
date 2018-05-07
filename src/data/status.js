@@ -21,7 +21,7 @@ export default [
       beskrivning: "Jag jobbade som sekreterare pa ett sakerhetsforetag i Filippinerna. Som sekreteraren var jag ansvarig for att kontakta myndigheter och olika samarbetspartner. Jag var ocksa ansvarig att protokollfora ledningens mote. Jag skotte ocksa medarbetarnas loner, forsakring, direkt kontakt med personalen genom att skicka meddelande och informera dem om ny information inom foretaget med mera."
     }],
     skills: [
-      "HTML5 ", "CSS3 ", "JavaScript ", "React.js ", "PHP ", "SQL"
+      "HTML5 ", "CSS3 ", "JavaScript ", "React.js ", "PHP ", "SQL", " Bootsrap", " Phonegap", " SVG", " Responsive", " SEO", " Google Analytics", " Github", " MongoDB", " Postman"
     ],
     utbildning: [{
       ar: "November 2017 - Februari 2018",

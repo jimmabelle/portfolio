@@ -22,7 +22,7 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  background-color: #060F4F;
+  background-color: rgb(6, 15, 79, 0.7);
   -webkit-transition: opacity 1s linear;
   -moz-transition: opacity 1s linear;
   -o-transition: opacity 1s linear;
