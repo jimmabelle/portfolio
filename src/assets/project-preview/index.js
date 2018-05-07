@@ -5,7 +5,7 @@ export default class ProjectPreview extends React.Component {
 
   render() {
     return (
-      <div className="grid">
+      <div className="Preview">
         <figure>
           <img src={this.props.image} alt="grid images" />
           <figcaption>

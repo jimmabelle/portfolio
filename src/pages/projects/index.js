@@ -8,10 +8,10 @@ export default class Projects extends React.Component {
 
   render() {
     return (
-      <div className="ProjectsPage">
+      <div className="Projects">
         <h1 className="title">Portfolio</h1>
 
-        <div className="projects">
+        <div className="project">
           {projects.map(projct => (
             <a href={projct.link} >
               <ProjectPreview

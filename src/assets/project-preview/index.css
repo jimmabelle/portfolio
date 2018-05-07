@@ -1,31 +1,114 @@
-.grid {
+.Preview {
+ width: 100%;
+ margin: 5%;
+
+
+ position: relative;
+}
+
+.Preview img {
+  width: 100%;
+
+  display: block;
+}
+
+.Preview figcaption {
+  font-family: 'Rock Salt', cursive;
+  font-size: 16px;
+  text-align: center;
+  color: #02BEC4;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: #060F4F;
+  transition: opacity 1s linear;
+}
+
+
+.Preview:hover figcaption {
+  opacity: 1;
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .Preview {
+    width: 100%;
+  }
+  .Preview figcaption {
+    font-family: 'Rock Salt', cursive;
+    font-size: 16px;
+    text-align: center;
+    color: #02BEC4;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #060F4F;
+    transition: opacity 1s linear;
+  }
+}
+
+@media (max-width: 600px) {
+  . Preview{
+    width: 100%;
+  }
+  .Preview figcaption {
+    font-family: 'Rock Salt', cursive;
+    font-size: 16px;
+    text-align: center;
+    color: #02BEC4;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #060F4F;
+    transition: opacity 1s linear;
+  }
+}
+
+/* .Preview {
   width: 30%;
   display: inline-block;
   background-color: #060F4F;
   margin: 1em;
 }
 
-.grid img {
+.Preview img {
   width: 100%;
   max-width: 430px;
   height: auto;
 }
 
-.grid figcaption {
+.Preview figcaption {
   font-family: 'Rock Salt', cursive;
   font-size: 15px;
   text-align: center;
   color: #02BEC4;
-}
+} */
 
 
 /********* tablet / ipod **********/
-@media (min-width: 601px) and (max-width: 900px) {
-  .grid {
+/* @media (min-width: 601px) and (max-width: 900px) {
+  .Preview {
     min-width: 500px;
   }
 
-  .grid img {
+  .Preview img {
     width: 100%;
     max-width: 500px;
     height: auto;
@@ -34,46 +117,15 @@
 }
 
 @media (max-width: 600px) {
-  .grid {
+  .Preview {
     width: 100%;
     max-width: 280px;
   }
 
-  .grid img {
+  .Preview img {
     width: 100%;
     max-width: 280px;
     height: auto;
   }
-
-}
-/********* mobile units **********/
-
-/****************************************************************************************************/
-/* .grid figure {
-  width: 30%;
-  background: #060F4F;
-  margin: 1em;
-  float: left;
-}
-
-.grid img {
-  width: 100%;
-}
-
-.grid figcaption {
-  font-family: 'Rock Salt', cursive;
-  font-size: 15px;
-  text-align: center;
-  color: #02BEC4;
-}
-
-@media (min-width: 600px) (max-width: 1000px) {
-  .grid{
-    width: 100%;
-    margin: 10px;
-    height: auto;
-    font-size: 15px;
-  }
-
 
 } */
