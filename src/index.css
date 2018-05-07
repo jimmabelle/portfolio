@@ -17,22 +17,36 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 100%;
   height: 100vh;
-  background: url(https://images.pexels.com/photos/8395/lights-night-unsharp-blured.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center;
+  /* background: url(https://images.pexels.com/photos/8395/lights-night-unsharp-blured.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 
   background: rgba(92,129,202,1);
+  background:
+    -webkit-linear-gradient(
+        left,
+        rgba(92,129,202,1) 0%,
+        rgba(249,140,112,1) 100%
+  );
   background:
     -moz-linear-gradient(
       left,
       rgba(92,129,202,1) 0%,
       rgba(249,140,112,1) 100%
   );
+
   background:
-    -webkit-linear-gradient(
+    -o-linear-gradient(
+        left,
+        rgba(92,129,202,1) 0%,
+        rgba(249,140,112,1) 100%
+  );
+
+  background:
+    -ms-linear-gradient(
         left,
         rgba(92,129,202,1) 0%,
         rgba(249,140,112,1) 100%
