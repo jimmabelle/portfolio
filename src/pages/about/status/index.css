@@ -96,6 +96,10 @@ button::-moz-focus-inner {
   padding: 2px;
   background-color: rgba(6, 15, 79, 0.7);
   text-decoration: none;
+  -webkit-transition: color 2s linear, background-color 2s linear;
+  -moz-transition: color 2s linear, background-color 2s linear;
+  -o-transition: color 2s linear, background-color 2s linear;
+  -ms-transition: color 2s linear, background-color 2s linear;
   transition: color 2s linear, background-color 2s linear;
 }
 
