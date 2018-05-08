@@ -108,19 +108,25 @@ class Status extends React.Component {
                 <span>{this.props.utbildning[0].ar}</span>
                 <span>{this.props.utbildning[0].yrke}</span>
                 <span>{this.props.utbildning[0].skolan}</span>
-                <span>{this.props.utbildning[0].pdf}</span>
+                <span>
+                  <a className="pdf" href="./pdf/kursintyg-technigo.pdf" download>{this.props.utbildning[0].pdf}</a>
+                </span>
               </p>
               <p>
                 <span>{this.props.utbildning[1].ar}</span>
                 <span>{this.props.utbildning[1].yrke}</span>
                 <span>{this.props.utbildning[1].skolan}</span>
-                <span>{this.props.utbildning[1].pdf}</span>
+                <span>
+                  <a className="pdf" href="./pdf/kursintyg-changeMaker.pdf" download>{this.props.utbildning[1].pdf}</a>
+                </span>
               </p>
               <p>
                 <span>{this.props.utbildning[2].ar}</span>
                 <span>{this.props.utbildning[2].yrke}</span>
                 <span>{this.props.utbildning[2].skolan}</span>
-                <span>{this.props.utbildning[2].pdf}</span>
+                <span>
+                  <a className="pdf" href="./pdf/kursintyg-universityOfMindanao.pdf" download>{this.props.utbildning[2].pdf}</a>
+                </span>
               </p>
             </div>
           }

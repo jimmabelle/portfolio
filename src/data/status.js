@@ -27,17 +27,17 @@ export default [
       ar: "November 2017 - Februari 2018",
       yrke: "Webbutvecklare",
       skolan: "TECHNIGO Bootcamp",
-      pdf: "Betyg"
+      pdf: "Betyg-PDF"
     }, {
       ar: "2015 - 2017",
       yrke: "Webbutveclare E-handel",
       skolan: "Changemaker Education",
-      pdf: "Betyg"
+      pdf: "Betyg-PDF"
     }, {
       ar: "2001 - 2007",
       yrke: "Bachelor of Commerce, Major in Management Accounting",
       skolan: "University of Mindanao",
-      pdf: "Betyg"
+      pdf: "Betyg-PDF"
     }]
   }
 ]
