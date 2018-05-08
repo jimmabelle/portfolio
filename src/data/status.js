@@ -21,23 +21,23 @@ export default [
       beskrivning: "Jag jobbade som sekreterare pa ett sakerhetsforetag i Filippinerna. Som sekreteraren var jag ansvarig for att kontakta myndigheter och olika samarbetspartner. Jag var ocksa ansvarig att protokollfora ledningens mote. Jag skotte ocksa medarbetarnas loner, forsakring, direkt kontakt med personalen genom att skicka meddelande och informera dem om ny information inom foretaget med mera."
     }],
     skills: [
-      "HTML5 ", "CSS3 ", "JavaScript ", "React.js ", "PHP ", "SQL", " Bootsrap", " Phonegap", " SVG", " Responsive", " SEO", " Google Analytics", " Github", " MongoDB", " Postman"
+      "HTML5 ", "CSS3 ", "JavaScript ", "React.js ", "PHP ", "SQL", " Bootsrap", " Phonegap", " SVG", " Responsive", " SEO", " Google Analytics", " Github", " MongoDB", " Postman", "Express.js"
     ],
     utbildning: [{
       ar: "November 2017 - Februari 2018",
       yrke: "Webbutvecklare",
       skolan: "TECHNIGO Bootcamp",
-      pdf: "Betyg-PDF"
+      pdf: "PDF-Betyg Download"
     }, {
       ar: "2015 - 2017",
       yrke: "Webbutveclare E-handel",
       skolan: "Changemaker Education",
-      pdf: "Betyg-PDF"
+      pdf: "PDF-Betyg Download"
     }, {
       ar: "2001 - 2007",
       yrke: "Bachelor of Commerce, Major in Management Accounting",
       skolan: "University of Mindanao",
-      pdf: "Betyg-PDF"
+      pdf: "PDF-Betyg Download"
     }]
   }
 ]

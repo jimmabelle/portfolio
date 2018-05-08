@@ -91,7 +91,10 @@ button::-moz-focus-inner {
 }
 
 .Status .pdf {
-  color: #060F4F;
+  color: #02BEC4;
+  border: none;
+  padding: 2px;
+  background-color: rgba(6, 15, 79, 0.7);
   text-decoration: none;
 }
 
