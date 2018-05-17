@@ -106,7 +106,7 @@ button::-moz-focus-inner {
 .Status .pdf:hover {
   text-decoration: underline;
   color: rgba(6, 15, 79, 0.7);
-  background-color: rgb(2, 190, 196, 0.7);
+  background-color: rgba(2, 190, 196, 0.7);
 }
 
 @media (max-width: 600px) {

@@ -6,6 +6,7 @@ import flexbox from "./office.jpeg"
 import form from "./calendar.jpeg"
 import recipes from "./recipes.jpeg"
 import chart from "./chart.jpeg"
+import weather from "./time.jpeg"
 
 export default [
   {
@@ -56,5 +57,11 @@ export default [
     description: "Pie chart using Api",
     link: "https://jimmabelle.github.io/pieChart/",
     image: chart
+  }, {
+    id: "weather",
+    name: "Weather Api",
+    description: "Building weather information Api",
+    link: "https://jimmabelle.github.io/weather-api/",
+    image: weather
   }
 ]
