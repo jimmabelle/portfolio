@@ -9,6 +9,7 @@ export default [
     image: cv,
     adress: "Ursviksvagen 16, 172 36 Sundbyberg",
     language: "Tagalog och Bisaya, Engelska, Svenska",
+    linkedinUrl: "https://www.linkedin.com/in/jimma-belle-blikstad-876753127/",
     erfarenheter: [{
       ar: "2003-2004, 2006-2008",
       foretag: "NCCC Mall Tagum City ",
@@ -27,16 +28,19 @@ export default [
       ar: "November 2017 - Februari 2018",
       yrke: "Webbutvecklare",
       skolan: "TECHNIGO Bootcamp",
+      pdfUrl: "https://www.belleblikstad.se/documents/kursintyg-technigo.pdf",
       pdf: "PDF-Betyg Download"
     }, {
       ar: "2015 - 2017",
       yrke: "Webbutveclare E-handel",
       skolan: "Changemaker Education",
+      pdfUrl: "https://www.belleblikstad.se/documents/kursintyg-changeMaker.pdf",
       pdf: "PDF-Betyg Download"
     }, {
       ar: "2001 - 2007",
       yrke: "Bachelor of Commerce, Major in Management Accounting",
       skolan: "University of Mindanao",
+      pdfUrl: "https://www.belleblikstad.se/documents/jimmabelle-UM.pdf",
       pdf: "PDF-Betyg Download"
     }]
   }

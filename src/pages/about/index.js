@@ -17,6 +17,7 @@ class About extends React.Component {
             image={st.image}
             adress={st.adress}
             language={st.language}
+            linkedinUrl={st.linkedinUrl}
             erfarenheter={st.erfarenheter}
             skills={st.skills}
             utbildning={st.utbildning} />

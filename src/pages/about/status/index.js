@@ -58,6 +58,9 @@ class Status extends React.Component {
                 <span>{this.props.email}</span>
                 <span>{this.props.adress}</span>
                 <span>{this.props.language}</span>
+                <span>
+                  <a href={this.props.linkedinUrl}>{this.props.linkedinUrl}</a>
+                </span>
               </p>
             </div>
           }
@@ -109,7 +112,7 @@ class Status extends React.Component {
                 <span>{this.props.utbildning[0].yrke}</span>
                 <span>{this.props.utbildning[0].skolan}</span>
                 <span>
-                  <a className="pdf" href="http://www.belleblikstad.se/documents/kursintyg-technigo.pdf" download>{this.props.utbildning[0].pdf}</a>
+                  <a className="pdf" href={this.props.utbildning[0].pdfUrl} download>{this.props.utbildning[0].pdf}</a>
                 </span>
               </p>
               <p>
@@ -117,7 +120,7 @@ class Status extends React.Component {
                 <span>{this.props.utbildning[1].yrke}</span>
                 <span>{this.props.utbildning[1].skolan}</span>
                 <span>
-                  <a className="pdf" href="http://www.belleblikstad.se/documents/kursintyg-changeMaker.pdf" download>{this.props.utbildning[1].pdf}</a>
+                  <a className="pdf" href={this.props.utbildning[1].pdfUrl} download>{this.props.utbildning[1].pdf}</a>
                 </span>
               </p>
               <p>
@@ -125,7 +128,7 @@ class Status extends React.Component {
                 <span>{this.props.utbildning[2].yrke}</span>
                 <span>{this.props.utbildning[2].skolan}</span>
                 <span>
-                  <a className="pdf" href="http://www.belleblikstad.se/documents/jimmabelle-UM.pdf" download>{this.props.utbildning[2].pdf}</a>
+                  <a className="pdf" href={this.props.utbildning[2].pdfUrl} download>{this.props.utbildning[2].pdf}</a>
                 </span>
               </p>
             </div>

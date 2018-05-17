@@ -7,6 +7,7 @@ import form from "./calendar.jpeg"
 import recipes from "./recipes.jpeg"
 import chart from "./chart.jpeg"
 import weather from "./time.jpeg"
+import bolaget from "./water.jpeg"
 
 export default [
   {
@@ -63,5 +64,11 @@ export default [
     description: "Building weather information Api",
     link: "https://jimmabelle.github.io/weather-api/",
     image: weather
+  }, {
+    id: "Bolaget",
+    name: "Systembolaget",
+    description: "Building clone systembolaget",
+    link: "https://www.belleblikstad.se/bolaget/index.php",
+    image: bolaget
   }
 ]
