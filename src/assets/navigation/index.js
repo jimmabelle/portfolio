@@ -7,7 +7,7 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <nav className="Navigation">
-        <h1>Curriculom Vitae</h1>
+        <h1>JMB.Blikstad</h1>
         <input type="checkbox" id="input" />
         <label className="menuBar" htmlFor="input">
           <span className="bar" />
@@ -17,7 +17,7 @@ export default class Navigation extends React.Component {
         <div className="link">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
-          <Link to="/project">Project</Link>
+          <Link to="/project">Projects</Link>
         </div>
       </nav>
     )

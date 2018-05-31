@@ -4,3 +4,11 @@
   width: 100%;
   margin: 20px auto auto auto;
 }
+
+.About .title {
+letter-spacing: 5px;
+padding: 30px;
+font-size: 2em;
+font-family: 'Rock Salt', cursive;
+text-align: center;
+}

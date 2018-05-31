@@ -8,6 +8,8 @@ class About extends React.Component {
   render() {
     return (
       <div className="About">
+        <h1 className="title">Curriculom Vitae</h1>
+
         {status.map(st => (
           <Status
             key={st.id}
