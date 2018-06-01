@@ -8,6 +8,7 @@ import recipes from "./recipes.jpeg"
 import chart from "./chart.jpeg"
 import weather from "./time.jpeg"
 import bolaget from "./water.jpeg"
+import map from "./calculation.jpeg"
 
 export default [
   {
@@ -70,5 +71,11 @@ export default [
     description: "Building clone systembolaget",
     link: "https://www.belleblikstad.se/bolaget/index.php",
     image: bolaget
+  }, {
+    id: "Mapbox",
+    name: "ToGo List",
+    description: "Building map",
+    link: "https://jimmabelle.github.io/ToGo-list/",
+    image: map
   }
 ]
