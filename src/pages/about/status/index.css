@@ -41,13 +41,14 @@
   -ms-outline: none;
   outline: none;
   letter-spacing: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   cursor: pointer;
-  -webkit-transition: background-color 2s linear;
-  -moz-transition: background-color 2s linear;
-  -o-transition: background-color 2s linear;
-  -ms-transition: background-color 2s linear;
-  transition: background-color 2s linear;
+  -webkit-transition: background-color 1s linear;
+  -moz-transition: background-color 1s linear;
+  -o-transition: background-color 1s linear;
+  -ms-transition: background-color 1s linear;
+  transition: background-color 1s linear;
+  border-radius: 5px;
 }
 
 /* removing firefox dotted outline*/
@@ -79,15 +80,40 @@ button::-moz-focus-inner {
 
 .Status .panel {
   padding: 20px;
+  background-color: rgb(242, 242, 242, .3);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.Status .panel:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid rgb(242, 242, 242, .3);
+  border-left: 8px solid transparent;
+  position: relative;
+  top: -48px;
+  right: -40px;
 }
 
 .Status .panel p {
   padding-bottom: 20px;
+  letter-spacing: 2px;
+  color: #333333;
 }
 
 .Status .panel p span {
   display: block;
   padding-bottom: 2px;
+  line-height: 1.5rem;
+}
+
+.Status .linkedin {
+  text-decoration: none;
+  color: #060F4F;
 }
 
 .Status .pdf {
@@ -96,17 +122,26 @@ button::-moz-focus-inner {
   padding: 2px;
   background-color: rgba(6, 15, 79, 0.7);
   text-decoration: none;
-  -webkit-transition: color 2s linear, background-color 2s linear;
-  -moz-transition: color 2s linear, background-color 2s linear;
-  -o-transition: color 2s linear, background-color 2s linear;
-  -ms-transition: color 2s linear, background-color 2s linear;
-  transition: color 2s linear, background-color 2s linear;
+  -webkit-transition: color 1s linear, background-color 2s linear;
+  -moz-transition: color 1s linear, background-color 2s linear;
+  -o-transition: color 1s linear, background-color 2s linear;
+  -ms-transition: color 1s linear, background-color 2s linear;
+  transition: color 1s linear, background-color 2s linear;
 }
 
 .Status .pdf:hover {
   text-decoration: underline;
   color: rgba(6, 15, 79, 0.7);
   background-color: rgba(2, 190, 196, 0.7);
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .Status .left {
+    width: 40%
+  }
+  .Status .right {
+    width: 60%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -118,9 +153,12 @@ button::-moz-focus-inner {
     align-items: center;
   }
 
-  .Status .left,
-  .Status .right {
+  .Status .left {
     width: 80%;
+  }
+
+  .Status .right {
+    width: 95%;
   }
 
 }

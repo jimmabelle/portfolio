@@ -1,6 +1,36 @@
 .Navigation {
   background: #060F4F;
-  padding: 20px;
+  padding: 15px 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.Navigation-sticky {
+  background: #060F4F;
+  padding: 15px 50px;
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  position: fixed;
+}
+
+.Navigation a.logo {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Navigation a.logo:hover {
+  color: #A9E8DC;
+}
+
+.Navigation .link {
+  position: absolute;
+  right: 50px;
+  bottom: 24px;
 }
 
 .Navigation .link a {
@@ -8,13 +38,16 @@
   font-weight: bold;
   color: #E1F7E7;
   text-decoration: none;
-  position: relative;
+  font-size: 1.2rem;
+  margin: 15px 10px;
 }
 
-.Navigation .link > a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+.Navigation .link a:last-child {
+  margin-right: 0;
+}
+
+.Navigation .link a:hover {
+  text-decoration: underline;
 }
 
 .Navigation .link a:before {
@@ -33,9 +66,8 @@
 }
 
 .Navigation h1 {
-  margin-left: 10px;
-  margin-bottom: 10px;
   color: #E1F7E7;
+  font-size: 2rem;
 }
 
 .Navigation h1:hover {
@@ -58,7 +90,7 @@
 }
 
 .Navigation .menuBar .bar {
-  width: 30px;
+  width: 25px;
   background: black;
   height: 3px;
   display: inline-block;
@@ -89,7 +121,7 @@
 }
 
 #input:checked ~ .menuBar .bar:nth-child(1) {
-  transform: rotate(135deg) translateY(-4px) translateX(4px);
+  transform: rotate(135deg) translateY(-7px) translateX(5px);
 }
 
 #input:checked ~ .menuBar .bar:nth-child(2) {
@@ -98,7 +130,7 @@
 }
 
 #input:checked ~ .menuBar .bar:nth-child(3) {
-  transform: rotate(-135deg) translateY(7px) translateX(7px);
+  transform: rotate(-135deg) translateY(7px) translateX(4px);
 }
 
 /*********** mobile version ***********/
@@ -107,23 +139,50 @@
     width: 100%;
     overflow: hidden;
     position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 40px;
   }
+
   .Navigation h1 {
     margin: 0;
   }
+
   .Navigation .menuBar {
-    display: inline-block;
+    display: block;
   }
+
   .Navigation .link {
     background-color: #0284A8;
     position: absolute;
     width: 100%;
     left: 100%;
+    right: 0;
+    bottom: 0;
     text-align: center;
+    transition: left 1s ease;
   }
+
+  .Navigation .link a {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .Navigation .link a:last-child {
+    margin-right: 30px;
+  }
+
+  .Navigation .link > a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
   #input:checked ~ .link {
     left: 0;
+    transition: left 1s ease;
   }
+
   .list a {
     width: 100%;
     display: block;
@@ -136,23 +195,50 @@
     width: 100%;
     overflow: hidden;
     position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 40px;
   }
+
   .Navigation h1 {
     margin: 0;
   }
+
   .Navigation .menuBar {
-    display: inline-block;
+    display: block;
   }
+
   .Navigation .link {
     background-color: #0284A8;
     position: absolute;
     width: 100%;
     left: 100%;
+    right: 0;
     text-align: center;
+    bottom: 0px;
+    transition: left 1s ease;
   }
+
+  .Navigation .link a {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .Navigation .link a:last-child {
+    margin-right: 20px;
+  }
+
+  .Navigation .link > a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
   #input:checked ~ .link {
     left: 0;
+    transition: left 1s ease;
   }
+
   .list a {
     width: 100%;
     display: block;

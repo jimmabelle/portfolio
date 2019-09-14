@@ -14,16 +14,37 @@ export default [
       ar: "2003-2004, 2006-2008",
       foretag: "NCCC Mall Tagum City ",
       position: "Sales associates",
-      beskrivning: "Jag jobbade som saljare av barnklader pa Galleria i Filippinerna. Jag jobbade heltid och deltid pa den tiden for att finansiera mina studier."
+      beskrivning: "Jag jobbade heltid och deltid pa den tiden for att finansiera mina studier.",
+      ansvarigheter:
+      "Sålde barnkläder. Hjälpte kunder att svara frågor typ kunders behöv av produkter. Ansvarig på produkter om det finns på lager. Gör produktrapport till om det är lättsålt. Ger feedback till handledare och säljare. Varannan år gör inventerieförteckning. Kunnighet om produkter som jag sålde."
     }, {
       ar: "2004-2006",
       foretag: "Black Fighter Security Agency",
       position: "Sekretary",
       beskrivning: "Jag jobbade som sekreterare pa ett sakerhetsforetag i Filippinerna. Som sekreteraren var jag ansvarig for att kontakta myndigheter och olika samarbetspartner. Jag var ocksa ansvarig att protokollfora ledningens mote. Jag skotte ocksa medarbetarnas loner, forsakring, direkt kontakt med personalen genom att skicka meddelande och informera dem om ny information inom foretaget med mera."
+    }, {
+      ar: "25 juni 2018 - 25 dec 2018",
+      foretag: "Flightmate AB - Flygresor.se",
+      position: "Software developer",
+      beskrivning: "Jag jobbade front-end och backend men jag jobbade mest på frontend."
     }],
-    skills: [
-      "HTML5 ", "CSS3 ", "JavaScript ", "React.js ", "PHP ", "SQL", " Bootsrap", " Phonegap", " SVG", " Responsive", " SEO", " Google Analytics", " Github", " MongoDB", " Postman", " Express.js", "Node.js"
-    ],
+    skills: [{
+      html: "HyperText Markup Language - HTML5",
+      css: "Cascading Style Sheet - CSS, Responsive, SVG",
+      js: [{
+        script: "JS",
+        frameworks: "Cross-platform - Node, Web Application Frameworks for Node - Express",
+        library: "React",
+        template: "Handlebars"
+      }],
+      php: "Preprocessor",
+      database: "Sql, MongoDB",
+      api: "Api Development Environment- Postman",
+      seo: "Google Analytics",
+      platform: "Github",
+      library: "Toolkit - Bootsrap",
+      cms: "Wordpress, Magento, Prestashop"
+    }],
     utbildning: [{
       ar: "November 2017 - Februari 2018",
       yrke: "Webbutvecklare",
@@ -42,6 +63,19 @@ export default [
       skolan: "University of Mindanao",
       pdfUrl: "https://www.belleblikstad.se/documents/jimmabelle-UM.pdf",
       pdf: "PDF-Betyg Download"
+    }],
+    intyg: [{
+      ar: "25 juni 2018 - 25 dec 2018",
+      position: "Software developer",
+      foretag: "Flightmate AB - Flygresor.se",
+      pdfUrl: "https://www.belleblikstad.se/documents/arbetsintyg-flygresor.pdf",
+      pdf: "PDF-arbetsintyg Download"
+    }],
+    curriculom: [{
+      pdfVitaeUrl: "https://www.belleblikstad.se/documents/jimma-cv.pdf",
+      pdfBrevUrl: "https://www.belleblikstad.se/documents/jimma-brev.pdf",
+      vitaeText: "PDF-curriculom vitae Download",
+      brevText: "PDF-brev Download"
     }]
   }
 ]

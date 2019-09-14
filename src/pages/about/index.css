@@ -1,14 +1,35 @@
 .About {
-  background-color: rgba(255, 255, 255, 0.3);
-  max-width: 1000px;
+  max-width: 1440px;
   width: 100%;
-  margin: 20px auto auto auto;
+  height: 100%;
+  margin: auto;
+  padding: 0 50px;
 }
 
 .About .title {
-letter-spacing: 5px;
-padding: 30px;
-font-size: 2em;
-font-family: 'Rock Salt', cursive;
-text-align: center;
+  letter-spacing: 5px;
+  padding: 30px;
+  font-size: 2em;
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .About {
+    padding: 0;
+  }
+
+  .About .title {
+    padding: 30px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .About {
+    padding: 0;
+  }
+
+  .About .title {
+    padding: 30px 10px;
+  }
 }

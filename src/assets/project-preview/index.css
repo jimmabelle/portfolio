@@ -37,12 +37,14 @@
 @media (min-width: 601px) and (max-width: 900px) {
   .Preview {
     width: 100%;
+    margin: 2%;
   }
 }
 
 @media (max-width: 600px) {
   .Preview{
     width: 100%;
+    margin: 2%;
   }
 
 }

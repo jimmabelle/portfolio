@@ -1,6 +1,13 @@
 .homePage {
-  max-width: 1000px;
+  max-width: 1440px;
   width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.homePage .homePage-text {
+  color: #ffffff;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -9,37 +16,26 @@
   -o-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #ffffff;
 }
 
-.homePage .first-container,
-.homePage .second-container {
+.homePage .homePage-text .first-container,
+.homePage .homePage-text .second-container,
+.homePage .homePage-text .third-container {
   cursor: pointer;
-  position: relative;
 }
 
-.homePage .first-container h1,
-.homePage .second-container h1 {
-  position: relative;
+.homePage .homePage-text .first-container h1,
+.homePage .homePage-text .second-container h1,
+.homePage .homePage-text .third-container h1 {
   letter-spacing: 2px;
-  font-size: 5vw;
+  font-size: 2.5rem;
   text-align: center;
-}
-
-.homePage .first-container {
-  margin-bottom: 15px;
-}
-
-.homePage .nowrap {
-white-space: nowrap;
-word-break: keep-all;
+  font-family: 'Rock Salt', cursive;
 }
 
 .homePage span {
-  display: inline-block;
-  position: relative;
-  margin-right: 5px;
   text-transform: uppercase;
+  position: relative;
 }
 
 .homePage span:after {
@@ -53,259 +49,102 @@ word-break: keep-all;
   z-index: -5;
 }
 
-.homePage .share:hover > h1 > span:nth-child(1):after {
+.homePage .share:hover > h1 > span:nth-child(1):after,
+.homePage .share:hover > h1 > span:nth-child(2):after,
+.homePage .share:hover > h1 > span:nth-child(3):after,
+.homePage .share:hover > h1 > span:nth-child(4):after,
+.homePage .share:hover > h1 > span:nth-child(5):after,
+.homePage .share:hover > h1 > span:nth-child(6):after,
+.homePage .share:hover > h1 > span:nth-child(7):after,
+.homePage .share:hover > h1 > span:nth-child(8):after,
+.homePage .share:hover > h1 > span:nth-child(9):after,
+.homePage .share:hover > h1 > span:nth-child(10):after,
+.homePage .share:hover > h1 > span:nth-child(11):after,
+.homePage .share:hover > h1 > span:nth-child(12):after,
+.homePage .share:hover > h1 > span:nth-child(13):after,
+.homePage .share:hover > h1 > span:nth-child(14):after,
+.homePage .share:hover > h1 > span:nth-child(15):after,
+.homePage .share:hover > h1 > span:nth-child(16):after,
+.homePage .share:hover > h1 > span:nth-child(17):after,
+.homePage .share:hover > h1 > span:nth-child(18):after{
   background: white;
   width: 100%;
   transition: 0.6s;
+}
+
+.homePage .share:hover > h1 > span:nth-child(1):after {
   transition-delay: 100ms;
   transform: rotate(-25deg);
 }
 
-.homePage .share:hover > h1 > span:nth-child(1) {
+.homePage .share:hover > h1 > span:nth-child(1),
+.homePage .share:hover > h1 > span:nth-child(2),
+.homePage .share:hover > h1 > span:nth-child(3),
+.homePage .share:hover > h1 > span:nth-child(4),
+.homePage .share:hover > h1 > span:nth-child(5),
+.homePage .share:hover > h1 > span:nth-child(6),
+.homePage .share:hover > h1 > span:nth-child(7),
+.homePage .share:hover > h1 > span:nth-child(8),
+.homePage .share:hover > h1 > span:nth-child(9),
+.homePage .share:hover > h1 > span:nth-child(10),
+.homePage .share:hover > h1 > span:nth-child(11),
+.homePage .share:hover > h1 > span:nth-child(12),
+.homePage .share:hover > h1 > span:nth-child(13),
+.homePage .share:hover > h1 > span:nth-child(14),
+.homePage .share:hover > h1 > span:nth-child(15),
+.homePage .share:hover > h1 > span:nth-child(16),
+.homePage .share:hover > h1 > span:nth-child(17),
+.homePage .share:hover > h1 > span:nth-child(18) {
   color: #39393B;
+}
+
+.homePage .share:hover > h1 > span:nth-child(1) {
   transition-delay: 110ms;
 }
 
-.homePage .share:hover > h1 > span:nth-child(2):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 200ms;
-  transform: rotate(-20deg);
+::-webkit-scrollbar {
+  width: 5px;
 }
 
-.homePage .share:hover > h1 > span:nth-child(2) {
-  color: #39393B;
-  transition-delay: 220ms;
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  height: 5px;
 }
 
-.homePage .share:hover > h1 > span:nth-child(3):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 300ms;
-  transform: rotate(-15deg);
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #02BEC4;
+  border-radius: 10px;
+  height: 5px;
 }
 
-.homePage .share:hover > h1 > span:nth-child(3) {
-  color: #39393B;
-  transition-delay: 330ms;
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #02BEC4;
 }
 
+@media (min-width: 601px) and (max-width: 900px) {
+  .homePage .homePage-text {
+    width: 100%;
+  }
 
-.homePage .share:hover > h1 > span:nth-child(4):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 400ms;
-  transform: rotate(-10deg);
-}
-
-.homePage .share:hover > h1 > span:nth-child(4) {
-  color: #39393B;
-  transition-delay: 440ms;
-}
-
-.homePage .share:hover > h1 > span:nth-child(5):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 500ms;
-  transform: rotate(-5deg);
-}
-
-
-.homePage .share:hover > h1 > span:nth-child(5) {
-  color: #39393B;
-  transition-delay: 550ms;
-}
-
-.homePage .share:hover > h1 > span:nth-child(6):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 600ms;
-  transform: rotate(0deg);
-}
-
-.homePage .share:hover > h1 > span:nth-child(6) {
-  color: #39393B;
-  transition-delay: 660ms;
-}
-
-.homePage .share:hover > h1 > span:nth-child(7):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 700ms;
-  transform: rotate(5deg);
-}
-
-.homePage .share:hover > h1 > span:nth-child(7) {
-  color: #39393B;
-  transition-delay: 770ms;
-}
-
-.homePage .share:hover > h1 > span:nth-child(7):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 700ms;
-  transform: rotate(5deg);
-}
-
-.homePage .share:hover > h1 > span:nth-child(7) {
-  color: #39393B;
-  transition-delay: 770ms;
-}
-
-.homePage .share:hover > h1 > span:nth-child(8):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 800ms;
-  transform: rotate(10deg);
-}
-
-.homePage .share:hover > h1 > span:nth-child(8) {
-  color: #39393B;
-  transition-delay: 880ms;
-}
-
-.homePage .share:hover > h1 > span:nth-child(9):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 900ms;
-  transform: rotate(15deg);
-}
-
-.homePage .share:hover > h1 > span:nth-child(9) {
-  color: #39393B;
-  transition-delay: 990ms;
-}
-
-.homePage .share:hover > h1 > span:nth-child(10):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 1000ms;
-  transform: rotate(20deg);
-}
-
-.homePage .share:hover > h1 > span:nth-child(10) {
-  color: #39393B;
-  transition-delay: 1100ms;
-}
-
-
-.homePage .share:hover > h1 > span:nth-child(11):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 1200ms;
-  transform: rotate(20deg);
-}
-
-.homePage .share:hover > h1 > span:nth-child(11) {
-  color: #39393B;
-  transition-delay: 1210ms;
-}
-
-.homePage .share:hover > h1 > span:nth-child(12):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 1300ms;
-  transform: rotate(20deg);
-}
-
-.homePage .share:hover > h1 > span:nth-child(12) {
-  color: #39393B;
-  transition-delay: 1320ms;
-}
-
-.homePage .share:hover > h1 > span:nth-child(13):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 1400ms;
-  transform: rotate(20deg);
-}
-
-.homePage .share:hover > h1 > span:nth-child(13) {
-  color: #39393B;
-  transition-delay: 1440ms;
-}
-
-.homePage .share:hover > h1 > span:nth-child(14):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 1400ms;
-  transform: rotate(20deg);
-}
-
-.homePage .share:hover > h1 > span:nth-child(14) {
-  color: #39393B;
-  transition-delay: 1550ms;
-}
-
-.homePage .share:hover > h1 > span:nth-child(15):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 1500ms;
-  transform: rotate(20deg);
-}
-
-.homePage .share:hover > h1 > span:nth-child(15) {
-  color: #39393B;
-  transition-delay: 1660ms;
-}
-
-
-.homePage .share:hover > h1 > span:nth-child(16):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 1600ms;
-  transform: rotate(20deg);
-}
-
-.homePage .share:hover > h1 > span:nth-child(16) {
-  color: #39393B;
-  transition-delay: 1770ms;
-}
-
-.homePage .share:hover > h1 > span:nth-child(17):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 1700ms;
-  transform: rotate(20deg);
-}
-
-.homePage .share:hover > h1 > span:nth-child(17) {
-  color: #39393B;
-  transition-delay: 1880ms;
-}
-
-.homePage .share:hover > h1 > span:nth-child(18):after {
-  background: white;
-  width: 100%;
-  transition: 0.6s;
-  transition-delay: 1800ms;
-  transform: rotate(20deg);
-}
-
-.homePage .share:hover > h1 > span:nth-child(18) {
-  color: #39393B;
-  transition-delay: 1990ms;
+  .homePage .homePage-text .first-container h1,
+  .homePage .homePage-text .second-container h1,
+  .homePage .homePage-text .third-container h1 {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 600px) {
-  .homePage .remove {
-    display: none;
+  .homePage .homePage-text {
+    width: 100%;
+  }
+
+  .homePage .homePage-text .first-container h1,
+  .homePage .homePage-text .second-container h1,
+  .homePage .homePage-text .third-container h1 {
+    font-size: 2rem;
   }
 }

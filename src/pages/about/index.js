@@ -1,4 +1,5 @@
 import React from "react"
+import ScrollTopButton from "assets/scrollTopButton"
 import status from "data/status"
 import Status from "./status"
 import "./index.css"
@@ -22,8 +23,12 @@ class About extends React.Component {
             linkedinUrl={st.linkedinUrl}
             erfarenheter={st.erfarenheter}
             skills={st.skills}
-            utbildning={st.utbildning} />
+            utbildning={st.utbildning}
+            intyg={st.intyg}
+            curriculom={st.curriculom} />
         ))}
+
+        <ScrollTopButton />
       </div>
     )
   }

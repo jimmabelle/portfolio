@@ -10,6 +10,7 @@ import Projects from "./projects"
 class App extends React.Component {
 
   render() {
+    alert("Min Portfolio är under arbete!!! Tack!")
     return (
       <HashRouter>
         <div className="container">

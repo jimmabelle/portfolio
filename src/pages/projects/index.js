@@ -1,7 +1,6 @@
 import React from "react"
 import ProjectPreview from "assets/project-preview"
 import projects from "data/projects"
-
 import "./index.css"
 
 export default class Projects extends React.Component {
@@ -15,7 +14,8 @@ export default class Projects extends React.Component {
           {projects.map(projct => (
             <a
               href={projct.link}
-              key={projct.id}>
+              key={projct.id}
+              target="_blank">
               <ProjectPreview
                 name={projct.name}
                 description={projct.description}
